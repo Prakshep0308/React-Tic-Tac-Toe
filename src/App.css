@@ -1,0 +1,22 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+}
+
+.status {
+  font-size: large;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.board-btn {
+  height: 100px;
+  width: 100px;
+}
